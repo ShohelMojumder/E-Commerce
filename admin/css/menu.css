@@ -1,0 +1,84 @@
+/* CSSTerm.com CSS Horizontal menu with images */
+
+.css_menu_two_line {
+	width:100%; 
+	overflow:hidden;
+}
+
+.two_line_menu {
+    position: relative;
+    margin-bottom: 40px;
+    background-color: #514663;
+}
+
+.two_line_menu a {
+    display: block;
+    color:#FFF;
+    text-decoration: none;
+    padding:15px;
+	font-weight:bold;
+}
+
+
+.two_line_menu li:hover {
+    color: #fff;
+   	background:#465163;
+}
+
+.two_line_menu li { display: inline-block; }
+
+.two_line_menu li ul { display: none; }
+
+.two_line_menu li:hover ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+	background:#465163;
+    top: 38px;
+}
+
+
+/*--------------------initially display the selected menu url--------------*/
+
+.two_line_menu #current ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+	background:#465163;
+    top:38px;
+}
+/*--------------Ebd of the currently selected menu ----------------*/
+
+.two_line_menu li ul li:hover a { color: #000; }
+
+
+/*this code take the selected menu so far when we hover on the other menu which is not selected*/
+.two_line_menu:hover  #current #submenu {
+	left: -9000px;
+}
+
+
+/*---------------Whenever we hover on the menu  area its background becomes empty ---------------------------*/
+.two_line_menu:hover  #current .selected {
+	background:none;
+}
+
+
+
+
+/*---------------Whenever we hover on the current menu its show even if it is selected  ---------------------------*/
+.two_line_menu  #current:hover #submenu{
+    display: block;
+    position: absolute;
+    left:0;
+    width:100%;
+    top:38px;
+}
+
+/*---------------------It shows the background of the selected menu-------------*/
+.selected
+{
+	background:#465163;
+}

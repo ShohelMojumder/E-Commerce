@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Common Css For All Pages */
+
+body { width:960px; height:690px; margin:auto; }
+
+#header { width:960px; height:150px; background-image:url(../images/bgButton.jpg); }
+
+#logoImg { height:35px; width:200px; text-align:left; }
+
+/*------------------Search form and Button----------*/
+#header form { width:500px;margin:auto;}
+
+.search { padding:8px 15px;background:rgba(50, 50, 50, 0.2);border:0px solid #dbdbdb;}
+
+.searchButton { position:relative; border:2px solid #207cca;  background-color:#207cca;font-weight:bold; color:#b5ddf6;}
+
+.searchButton:hover  {background-color:#fafafa; color:#207cca;}
+
+.searchArrow{position:relative;left:-8px;background:#207cca;padding:8px 15px;}
+
+.searchArrow:after{right:100%;top:50%;border:solid transparent;height:0;width:0;position:absolute;border-color:rgba(32,124,202,0);border-right-color:#207cca;border-width:10px;	margin-top:-10px; content:" ";}
+
+
+
+/*---------------this codes constructs  Menu Buttons the Header Common to All pages------------*/
+
+.btn { background: #0f3365; background-image: -webkit-linear-gradient(top, #0f3365, #2980b9);
+  background-image: -moz-linear-gradient(top, #0f3365, #2980b9);
+  background-image: -ms-linear-gradient(top, #0f3365, #2980b9);
+  background-image: -o-linear-gradient(top, #0f3365, #2980b9);
+  background-image: linear-gradient(to bottom, #0f3365, #2980b9);
+  -webkit-border-radius:28;
+  -moz-border-radius:28;
+  border-radius: 28px;
+  font-family:Verdana, Geneva, sans-serif;
+  color:#b5ddf6;
+  font-weight:bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+/* Setting the positions of the menu buttons*/
+#button{position:absolute;right:415px;top:110px;margin:0px;padding:0px;font-size:14px;font-family:Verdana, Geneva, sans-serif;}
+
+/* common of the most of the pages */
+
+#navMain { width:230px;  height:540px; float:left; }
+
+#navList{ font-family:Verdana,Arial, Helvetica, sans-serif;color: #336699;font-weight:bold; list-style-type:none; }
+
+#navList a{text-decoration:none; color: #336699;}
+
+#navList ul { list-style-type:none;}
+
+#navList ul a{text-decoration:none; color: #336699;}
+
+#nav { width:230px;height:390px;background-image:url(../images/navHead.jpg);}
+
+.selected{ font-weight:bolder; }
+
+.selected li{list-style-type:square;}
+
+#navHead { background-image:url(../images/navhead.gif); font-weight:bold; height:25px;	}
+
+#navHead a { text-decoration:none;color:#003366; font-size:15px; font-family:Verdana, Geneva, sans-serif; }
+
+#navBelow { width:230px;height:150px;color:#003300;font-weight:bold;font-size:13px; font-family:Verdana, Geneva, sans-serif;background-image:url(../images/navBelow.jpg);}
+
+#navBelowHead{background-image:url(../images/navBelowHead.gif);font-weight:bold;}
+
+#navBelowHead a{text-decoration:none;color:#003300; font-size:14px; font-family:Verdana, Geneva, sans-serif;}
+
+/* Setting the positions of the proceed to checkout buttons*/
+#proceed{position:relative;top:20px; left:4px;font-size:15px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#003300;}
+
+
+/*--------------Button of the Proceed TO Checkout----------*/
+
+.btnProceed { 
+  background: #ffffcc;
+  background-image: -webkit-linear-gradient(top, #ffffcc, #ccffcc);
+  background-image: -moz-linear-gradient(top, #ffffcc, #ccffcc);
+  background-image: -ms-linear-gradient(top, #ffffcc,#ccffcc);
+  background-image: -o-linear-gradient(top, #ffffcc, #ccffcc);
+  background-image: linear-gradient(to bottom, #ffffcc, #ccffcc);
+  -webkit-border-radius:48;
+  -moz-border-radius:48;
+  border-radius: 48px;
+  font-family:Verdana, Geneva, sans-serif;
+  color:#b5ddf6;
+  font-weight:bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnProceed:hover {
+  background: #ccffff;
+  background-image: -webkit-linear-gradient(top, #ccffcc, #ccffcc);
+  background-image: -moz-linear-gradient(top, #ccffcc, #ccffcc);
+  background-image: -ms-linear-gradient(top, #ccffcc, #ccffcc);
+  background-image: -o-linear-gradient(top, #ccffcc, #ccffcc);
+  background-image: linear-gradient(to bottom, #ccffcc, #ccffcc);
+  text-decoration: none;
+}
+
+
+#content  {height:540px;width:729px;background-image:url(../images/background.gif);float:left;}
+
+/*common of the thumsnail container pages shoppping cart*/
+
+.contentSpan{font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;font-size:20px;font-weight:bold;}
+
+
+/* Container of the Thumbs */
+
+#thumbContainer{margin-left:9px;}
+
+.thumbs{ border: 1px solid #888; background: #FFF; width:222px; height:155px; margin:8px 4px 0 6px; float:left; font-size:12px;padding-top:3px;}
+
+.thumbsImg{ height:110px; width:200px; }
+
+.thumbs a:hover img{border:1px solid #FFF; height:114px; width:210px;}/*-------------------border:4px solid #FFF;padding: 4px;background:#D5973C;-------*/
+
+.more{text-decoration:none;color: #0b5cdf;font-weight:bold;}
+
+.price{position:relative;left:-25px;font-family:"Times New Roman", Times, serif;font-weight:bold;top:-4px;color:#010066;}
+
+.cart{ position:relative;left:48px;top:-4px; }
+
+/* Button Of the Thumbs that is Add TO Cart */
+
+  .button {
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 2px 4px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #ffffff;
+   font-size: 9px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+   
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color:#0b5cdf;
+   }
+
+/*common of the all the pages for the foooter*/ 
+
+#footer{background-image:url(../images/navBelowHead.gif);height:18px;background-color:"#e6e9f1";font-size:15px; 
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#003300;clear:both;}
+
+
+
+
+/*--------------------Details StyleSheet------------------*/
+.thumbsDetails{ border-bottom:2px solid #003366; width:700px; height:180px; margin:8px 4px 0 6px; float:left; font-size:12px; padding-top:3px;}
+#button{ position:absolute; right:415px; top:110px; margin:0px; padding:0px; font-size:14px;font-family:Verdana, Geneva, sans-serif;}
+.imgClass{ height:150px; width:176px; position:relative; left:10px; }
+
+.enlarge{position:relative; right:200px; text-decoration:none; font-size:16px; font-weight:700; font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; }
+
+#detailsCart{ position:relative; left:130px; top:70px; }
+
+#photoCartDetails{position:relative; left:130px; top:60px; font-size:14px; font-weight:bold;}
+
+.detailsData{ font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; text-align:left; position:relative; top:-20px; left:80px;font-weight:bold}
+
+#descHead{ position:relative; top:-37px; }
+
+#description {font-weight:600; position:relative;top:-50px;}
+
+
+h3,#spanDesc,#description,#photoCartDetails,#contentSpan,.detailsData,.enlarge {font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+color:#010066;}
+
+
+
+/*-------------------------------Productlist Page Css Content--------------------------*/
+
+#productListBody { width:960px; height:715px; margin:auto;}
+
+#productNavMain{width:230px;height:565px;float:left;}
+
+#productNavBelow{ width:230px;height:150px;color:#003300;font-weight:bold;font-size:13px; font-family:Verdana, Geneva, sans-serif;background-image:url(../images/navBelow.jpg);}
+
+#productContent {height:565px;width:729px;float:left; background-image:url(../images/background.gif);}
+
+
+
+/*------------------- This is for the navigation menu of the ProductList Page Content-------------------*/
+
+
+.pagingNumber{font-weight:bold;font-size:medium; font-family:Verdana, Geneva, sans-serif; }
+
+ #paging{ padding: 6px; position:absolute; top:670px; right:200px;}
+ #paging ul { margin: 0; padding:0; list-style: none; text-align: right; }
+ #paging ul li { display: inline; }
+ #paging ul li a{ text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #b5ddf6;border: 1px solid #003366;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003366), color-stop(1, #003366) );background:-moz-linear-gradient( center top, #003366 5%, #003366 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#4D1A75');background-color:#003366; }
+  #paging ul.active, #paging a:hover { text-decoration: none;border-color: #4D1A75; color: #FFFFFF; background: none; background-color:#652299;}
+  div.dhtmlx_window_active, div.dhx_modal_cover_dv {  position: fixed !important; }
+
+
+/*--------------------------------------------Common Css For CheckOut Content--------------*/
+
+#checkOutContent {height:542px;width:729px;;border-bottom:none;border-top:none;background-image:url(../images/background.gif);float:left;}
+#orderComplete{font-size:23px;text-align:center;font-weight:bold;font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;}
+
+#orderComplete a{font-weight:bolder;font-size:28px; text-decoration:none;color:#003300;}
+
+/*--------------------------------------------Common Css For priceList Content--------------*/
+
+
+
+#priceListContent {width:960px;border-bottom:none;border-top:none;background-image:url(../images/background.gif);float:left; padding:4px; }
+.priceListCat{ text-decoration:none; font-size: 20px; font-weight:bold; color:#6FF;}
+.priceList{ text-decoration:none; font-weight:bold; color:#b5ddf6;}
+.ProductpriceList{ text-decoration:none; font-size: 16px; font-weight:bold; color:#b5ddf6;color: #4D1A75;}
+
+/*-----------------------------------------------------------------------Shipping and About Us pagess content-------------------------------------------------*/
+
+.contentShipAbout{font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;font-size:20px;font-weight:bolder;}
+
+/*-----------------------------------------------------------------------Shopping Cart-------------------------------------------------*/
+.shopCart{font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;}
+
+
+/*-----------------------------------------------------------------------About Us & Shipping and Delivery-----------------------------------------------------*/
+
+.aboutShip{font-size:19px;text-align:justify;font-weight:600;font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066; margin-left:12px;}
+
+/*-----------------------------------------------------------------------shopping Cart -----------------------------------------------------*/
+.removeCart{text-decoration:none;font-weight:bold;color:#010066;}
+.noOrder{font-size:19px;text-align:center;font-weight:bold;font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;}
+.cartHead{font-size:15px; font-weight:bold;font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066; background-color:#FFFFFF}
+.orderTotalCart{ font-size:15px;font-weight:bold;font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;color:#010066;}

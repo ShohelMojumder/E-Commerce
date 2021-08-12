@@ -1,0 +1,117 @@
+form * {
+	background: none;
+}
+
+.group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.group:after { clear: both; }  
+.group { zoom: 1; }  
+
+input[type=text],input[type=password],input[type=submit],input[type=email],input[type=url],input[type=number],input[type=datetime],textarea,button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: none;
+	background: transparent;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 5px;
+	margin: 0;
+	margin-bottom: 10px;
+	color: #555;
+}
+
+
+form {
+	width: 450px;
+	margin: 0px auto;
+	position: relative;
+	top:15px;
+
+	background: rgb(165, 199, 127);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, linear-gradient(rgb(0,51,102)), to(rgb(51, 51,102) ) no-repeat));
+	background: url(checkeredpattern.png) repeat-x, -webkit-linear-gradient(rgb(0,51,102) 5%, rgb(51, 51,102) ) no-repeat;
+	background: url(checkeredpattern.png) repeat-x, -moz-linear-gradient(rgb(0,51,102) 5%, rgb(51, 51,102) ) no-repeat;
+	background: url(checkeredpattern.png) repeat-x, -o-linear-gradient(rgb(0,51,102) 5%, rgb(51, 51,102) ) no-repeat;
+	background: url(checkeredpattern.png) repeat-x, -ms-linear-gradient(rgb(0,51,102) 5%, rgb(51, 51,102) ) no-repeat;
+	background: url(checkeredpattern.png) repeat-x, linear-gradient(rgb(0,51,102) 5%, rgb(51, 51,102) ) no-repeat;
+	border: 5px solid rgba(2, 46, 50,1);
+	padding: 35px 30px 5px 30px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+
+input[type=text],input[type=password],input[type=submit],input[type=email],input[type=url],input[type=number],input[type=datetime],textarea {
+	border: 1px solid rgb(71, 129, 106);
+	background: white;
+	width: 440px;
+	float: right;
+}
+
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol li span,ol li .grouplabel {
+	display: block;
+	font: bold 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color:#FFC861;
+	display: block;
+	text-align: left;
+	text-shadow: 0 1px 0px #FFF;
+	
+}
+
+
+button{
+	
+	color: #FFC861;
+	font-weight:bold;
+	padding: 5px 13px;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	float: right;
+	background: rgb(2, 46, 50);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(106)), to(rgb(2, 46, 50) ) no-repeat));
+	background: -webkit-linear-gradient(rgb(0, 51, 102), rgb(2, 46, 50) ) no-repeat;
+	background: -moz-linear-gradient(rgb(0, 51, 102), rgb(2, 46, 50) ) no-repeat;
+	background: -o-linear-gradient(rgb(0, 51, 102)), rgb(2, 46, 50) ) no-repeat;
+	background: -ms-linear-gradient(rgb(0, 51, 102), rgb(2, 46, 50) ) no-repeat;
+	background: linear-gradient(rgb(0, 51, 102), rgb(2, 46, 50) ) no-repeat;
+}
+
+button:hover{
+	color: #FFC861;
+	font-weight:bold;
+	padding: 5px 13px;
+
+	-webkit-border-radius: 209px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	float: right;
+	background: rgb(2, 46, 50);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(106)), to(rgb(2, 46, 50) ) no-repeat));
+	background: -webkit-linear-gradient(rgb(2, 46, 50), rgb(0, 51, 102) ) no-repeat;
+	background: -moz-linear-gradient(rgb(2, 46, 50), rgb(0, 51, 102) ) no-repeat;
+	background: -o-linear-gradient(rgb(2, 46, 50)), rgb(0, 51, 102) ) no-repeat;
+	background: -ms-linear-gradient(rgb(2, 46, 50), rgb(0, 51, 102) ) no-repeat;
+	background: linear-gradient(rgb(2, 46, 50), rgb(0, 51, 102) ) no-repeat;
+}
+
+#backButton,#backButton a
+{
+	margin-right:10px;
+	text-decoration:none;
+	color: #FFC861;
+}
